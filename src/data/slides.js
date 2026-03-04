@@ -1,0 +1,32 @@
+export const slides = [
+  {
+    id: 0,
+    background: 'linear-gradient(135deg, #0b5ed7 0%, #0d9488 100%)',
+    badge: 'Limited Time Offer',
+    heading: 'Save on Lenses for the Whole Family',
+    description: 'Get premium contact lenses at unbeatable prices. Top brands, fast delivery, and hassle-free refills.',
+    btnPrimary: 'Shop Contacts',
+    btnSecondary: 'Refill My Contacts',
+    graphic: 'eye',
+  },
+  {
+    id: 1,
+    background: 'linear-gradient(135deg, #7c3aed 0%, #db2777 100%)',
+    badge: 'New Arrival',
+    heading: 'Acuvue Oasys with Transitions',
+    description: 'The first-of-its-kind contact lens that adapts to changing light. Experience seamless vision indoors and out.',
+    btnPrimary: 'View Product',
+    btnSecondary: 'Learn More',
+    graphic: 'lens',
+  },
+  {
+    id: 2,
+    background: 'linear-gradient(135deg, #ea580c 0%, #facc15 100%)',
+    badge: 'Bundle & Save',
+    heading: 'Buy More, Save More on Every Order',
+    description: 'Stock up on your favorite lenses and save up to 30%. The more you buy, the bigger your discount.',
+    btnPrimary: 'Shop Bundles',
+    btnSecondary: 'See All Deals',
+    graphic: 'box',
+  },
+];
