@@ -20,3 +20,8 @@
 [Tue Mar 24 17:21:04 UTC 2026] FAILED: KAN-7 - Claude exited with code 1
 [Tue Mar 24 17:21:06 UTC 2026] Transitioned KAN-7 to 'Needs Revision'
 [Tue Mar 24 17:23:03 UTC 2026] Transitioned KAN-7 to 'In Progress'
+[Tue Mar 24 17:24:01 UTC 2026] Skipped: already running (lock exists)
+[Tue Mar 24 17:24:45 UTC 2026] Transitioned KAN-7 to 'In Review'
+[Tue Mar 24 17:24:45 UTC 2026] Done: KAN-7 -> PR opened
+[Tue Mar 24 19:27:03 UTC 2026] Transitioned KAN-8 to 'In Progress'
+[Tue Mar 24 19:28:01 UTC 2026] Skipped: already running (lock exists)
