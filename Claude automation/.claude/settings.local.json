@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(crontab:*)",
+      "Bash(chmod:*)",
+      "Bash(gh auth:*)",
+      "Bash(pip3 install:*)",
+      "Bash(python3 -m venv /opt/claude-automation/venv)",
+      "Bash(/opt/claude-automation/venv/bin/pip install:*)",
+      "Bash(sudo apt-get:*)",
+      "Bash(python3 -c \"from dotenv import load_dotenv; print\\(''dotenv OK''\\)\")",
+      "Bash(python3 -c \"import requests; print\\(''requests OK''\\)\")",
+      "Bash(source /opt/claude-automation/.env)",
+      "Bash(curl -s -u \"$JIRA_EMAIL:$JIRA_API_TOKEN\" \"$JIRA_BASE_URL/rest/api/3/search?jql=project%3DPROJ%20AND%20status%3D%22To%20Do%22%20AND%20summary%20~%20%22%5C%5C%5BCC%5C%5C%5D%22%20ORDER%20BY%20priority%20ASC&maxResults=1\")",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -s -u \"$JIRA_EMAIL:$JIRA_API_TOKEN\" \"$JIRA_BASE_URL/rest/api/3/search/jql?jql=status%3D%22To%20Do%22%20ORDER%20BY%20created%20DESC&maxResults=5\")",
+      "Bash(curl -s -u \"$JIRA_EMAIL:$JIRA_API_TOKEN\" \"$JIRA_BASE_URL/rest/api/3/search/jql?jql=status%3D%22To%20Do%22%20ORDER%20BY%20created%20DESC&maxResults=5&fields=summary,status,project,description\")",
+      "Bash(python3 fetch_stories.py)",
+      "Bash(python3 -m json.tool /tmp/current_story.json)",
+      "Bash(python3:*)",
+      "Bash(echo $PATH)",
+      "Bash(echo $HOME)",
+      "Bash(cat:*)",
+      "Bash(journalctl -u cron --no-pager -n 10)",
+      "Bash(bash -x /opt/claude-automation/run_claude.sh)",
+      "Bash(curl -s -u \"$JIRA_EMAIL:$JIRA_API_TOKEN\" \"$JIRA_BASE_URL/rest/api/3/issue/KAN-7?fields=status\")"
+    ]
+  }
+}

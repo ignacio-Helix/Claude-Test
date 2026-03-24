@@ -1,0 +1,666 @@
+/opt/claude-automation/run_claude.sh: line 42: cd: /opt/claude-automation/repo: No such file or directory
+/opt/claude-automation/run_claude.sh: line 42: cd: /opt/claude-automation/repo: No such file or directory
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 3, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 3, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 3, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 3, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 10, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~^^^^^^^^^^
+KeyError: 'issues'
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 10, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~^^^^^^^^^^
+KeyError: 'issues'
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 10, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~^^^^^^^^^^
+KeyError: 'issues'
+Cloning into '/opt/claude-automation/repos/Claude-Test'...
+Error: Input must be provided either through stdin or as a prompt argument when using --print
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Error: Input must be provided either through stdin or as a prompt argument when using --print
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+{"self":"https://essilorusa-team-k2xiz287.atlassian.net/rest/api/3/issue/10070/comment/10000","id":"10000","author":{"self":"https://essilorusa-team-k2xiz287.atlassian.net/rest/api/3/user?accountId=712020%3A39534918-4d1b-42ce-80cb-afa97333061d","accountId":"712020:39534918-4d1b-42ce-80cb-afa97333061d","emailAddress":"ignacio.mendoza@essilorusa.com","avatarUrls":{"48x48":"https://secure.gravatar.com/avatar/6e92333b972d1d306d33c66d0fecbc81?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FIM-4.png","24x24":"https://secure.gravatar.com/avatar/6e92333b972d1d306d33c66d0fecbc81?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FIM-4.png","16x16":"https://secure.gravatar.com/avatar/6e92333b972d1d306d33c66d0fecbc81?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FIM-4.png","32x32":"https://secure.gravatar.com/avatar/6e92333b972d1d306d33c66d0fecbc81?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FIM-4.png"},"displayName":"Ignacio Arturo Fernandez Mendoza","active":true,"timeZone":"America/Chicago","accountType":"atlassian"},"body":{"type":"doc","version":1,"content":[{"type":"paragraph","content":[{"type":"text","text":"Claude Code failed to implement this ticket.","marks":[{"type":"strong"}]}]},{"type":"paragraph","content":[{"type":"text","text":"Exit code: 1"}]},{"type":"codeBlock","attrs":{"language":"text"},"content":[{"type":"text","text":"Error: Input must be provided either through stdin or as a prompt argument when using --print"}]}]},"updateAuthor":{"self":"https://essilorusa-team-k2xiz287.atlassian.net/rest/api/3/user?accountId=712020%3A39534918-4d1b-42ce-80cb-afa97333061d","accountId":"712020:39534918-4d1b-42ce-80cb-afa97333061d","emailAddress":"ignacio.mendoza@essilorusa.com","avatarUrls":{"48x48":"https://secure.gravatar.com/avatar/6e92333b972d1d306d33c66d0fecbc81?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FIM-4.png","24x24":"https://secure.gravatar.com/avatar/6e92333b972d1d306d33c66d0fecbc81?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FIM-4.png","16x16":"https://secure.gravatar.com/avatar/6e92333b972d1d306d33c66d0fecbc81?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FIM-4.png","32x32":"https://secure.gravatar.com/avatar/6e92333b972d1d306d33c66d0fecbc81?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FIM-4.png"},"displayName":"Ignacio Arturo Fernandez Mendoza","active":true,"timeZone":"America/Chicago","accountType":"atlassian"},"created":"2026-03-24T12:19:05.742-0500","updated":"2026-03-24T12:19:05.742-0500","jsdPublic":true}Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+{"self":"https://essilorusa-team-k2xiz287.atlassian.net/rest/api/3/issue/10070/comment/10001","id":"10001","author":{"self":"https://essilorusa-team-k2xiz287.atlassian.net/rest/api/3/user?accountId=712020%3A39534918-4d1b-42ce-80cb-afa97333061d","accountId":"712020:39534918-4d1b-42ce-80cb-afa97333061d","emailAddress":"ignacio.mendoza@essilorusa.com","avatarUrls":{"48x48":"https://secure.gravatar.com/avatar/6e92333b972d1d306d33c66d0fecbc81?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FIM-4.png","24x24":"https://secure.gravatar.com/avatar/6e92333b972d1d306d33c66d0fecbc81?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FIM-4.png","16x16":"https://secure.gravatar.com/avatar/6e92333b972d1d306d33c66d0fecbc81?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FIM-4.png","32x32":"https://secure.gravatar.com/avatar/6e92333b972d1d306d33c66d0fecbc81?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FIM-4.png"},"displayName":"Ignacio Arturo Fernandez Mendoza","active":true,"timeZone":"America/Chicago","accountType":"atlassian"},"body":{"type":"doc","version":1,"content":[{"type":"paragraph","content":[{"type":"text","text":"Claude Code failed to implement this ticket.","marks":[{"type":"strong"}]}]},{"type":"paragraph","content":[{"type":"text","text":"Exit code: 1"}]},{"type":"codeBlock","attrs":{"language":"text"},"content":[{"type":"text","text":"Error: Input must be provided either through stdin or as a prompt argument when using --print"}]}]},"updateAuthor":{"self":"https://essilorusa-team-k2xiz287.atlassian.net/rest/api/3/user?accountId=712020%3A39534918-4d1b-42ce-80cb-afa97333061d","accountId":"712020:39534918-4d1b-42ce-80cb-afa97333061d","emailAddress":"ignacio.mendoza@essilorusa.com","avatarUrls":{"48x48":"https://secure.gravatar.com/avatar/6e92333b972d1d306d33c66d0fecbc81?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FIM-4.png","24x24":"https://secure.gravatar.com/avatar/6e92333b972d1d306d33c66d0fecbc81?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FIM-4.png","16x16":"https://secure.gravatar.com/avatar/6e92333b972d1d306d33c66d0fecbc81?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FIM-4.png","32x32":"https://secure.gravatar.com/avatar/6e92333b972d1d306d33c66d0fecbc81?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FIM-4.png"},"displayName":"Ignacio Arturo Fernandez Mendoza","active":true,"timeZone":"America/Chicago","accountType":"atlassian"},"created":"2026-03-24T12:21:05.203-0500","updated":"2026-03-24T12:21:05.203-0500","jsdPublic":true}Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/opt/claude-automation/fetch_stories.py", line 11, in <module>
+    issue = r.json()['issues'][0]
+            ~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range

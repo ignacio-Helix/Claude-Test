@@ -1,0 +1,83 @@
+Claude Code Jira Automation - Setup Summary
+=============================================
+Date: March 24, 2026
+
+What This Does
+--------------
+An automated pipeline that picks up Jira tickets, has Claude Code implement
+them, and opens a PR -- all without human intervention. It runs every 5
+minutes via cron and skips execution if a previous run is still in progress.
+
+How It Works
+------------
+1. Cron triggers run_claude.sh every 5 minutes
+2. A lock file prevents overlapping runs
+3. fetch_stories.py queries Jira for the highest-priority "To Do" ticket
+   whose summary contains [CC]
+4. The script parses the ticket description for a [claude-config] block
+   containing the target repo URL and branch
+5. It clones (or pulls) the repo and creates a feature branch
+6. The Jira ticket is transitioned to "In Progress"
+7. Claude Code runs non-interactively to implement the story
+8. Changes are pushed and a PR is opened against the specified base branch
+9. The Jira ticket is transitioned to "In Review"
+
+Setup Steps
+-----------
+1. Install prerequisites on the host machine:
+   - claude (Claude Code CLI)
+   - python3 + requests + python-dotenv
+   - jq
+   - gh (GitHub CLI, authenticated)
+
+2. Create the working directory:
+   mkdir -p /opt/claude-automation/logs
+
+3. Place these files in /opt/claude-automation/:
+   - .env              (credentials)
+   - fetch_stories.py  (Jira fetcher + config parser)
+   - run_claude.sh     (main automation script, must be chmod +x)
+
+4. Configure .env with:
+   JIRA_BASE_URL=https://your-domain.atlassian.net
+   JIRA_EMAIL=your-email@company.com
+   JIRA_API_TOKEN=your-jira-api-token
+   ANTHROPIC_API_KEY=your-anthropic-api-key
+
+5. Authenticate GitHub CLI:
+   gh auth login
+
+6. Add the cron job:
+   crontab -e
+   # Add this line:
+   */5 * * * * /opt/claude-automation/run_claude.sh >> /opt/claude-automation/logs/cron.log 2>&1
+
+Jira Ticket Requirements
+------------------------
+- Project: PROJ (configurable in fetch_stories.py JQL)
+- Status: "To Do"
+- Summary must contain: [CC]
+- Description must include a config block:
+
+   [claude-config]
+   repo: https://github.com/your-org/your-repo.git
+   branch: dev
+   [/claude-config]
+
+  "repo" tells Claude which repository to work in.
+  "branch" tells Claude which branch to base the feature branch on
+  and which branch the PR will target.
+
+Logs
+----
+- Run log:  /opt/claude-automation/logs/run.log   (script-level events)
+- Cron log: /opt/claude-automation/logs/cron.log   (stdout/stderr from cron)
+
+Key Design Decisions
+--------------------
+- Lock file (/opt/claude-automation/.lock) prevents concurrent runs.
+  Automatically cleaned up on exit via bash trap.
+- Repos are cloned to /opt/claude-automation/repos/<repo-name>/ and
+  reused across runs, so only the first run per repo requires a clone.
+- The [claude-config] block is extensible -- additional fields can be
+  added later without changing the overall structure.
